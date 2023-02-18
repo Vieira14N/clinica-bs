@@ -290,3 +290,119 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Section 5 */
+
+.section5 .subtitle2{
+    background-color: white;
+    box-shadow: 0px 0.3px 4px 0px rgba(0,0,0,0.25);
+    width: 940px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.section5 .subtitle2 h2{
+    color: #353740;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section5 .subtitle2 p{
+    color: #353740;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.section5 .depoimentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.section5 .depoimento {
+    display: flex;
+    width: 440px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.section5 .depoimento div h3 {
+    color: #353740;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section5 .depoimento p {
+    color: #353740;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+/* Section 6 */
+
+.section6 .ondas-bg{
+    background-image: url(img/Ondas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 276px;
+    width: 100%;
+    padding-top: 60px;
+}
+
+.section6 .sec6-div {
+    background-color: #284B70;
+}
+
+.section6 .sec6-div div {
+    max-width: 940px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.section6 .sec6-div div h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.section6 .sec6-div div p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.section6 .local-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section6 .local-contato a {
+    display: flex;
+    align-items: center;
+    border: 3px white solid;
+    border-radius: 10px;
+    height: 90px;
+    padding: 0 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.section6 .local-contato a:hover{
+    border: 3px #29A71A solid;
+    color: #29A71A;
+}
+
+.section6 .local-contato a p {
+    margin-top: 30px;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
