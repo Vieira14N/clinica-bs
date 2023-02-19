@@ -180,16 +180,19 @@ a{
     background-image: url(img/Ondas.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 276px;
-    width: 100%;
-    padding-top: 60px;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    padding-top: 150px;
 }
 
 .section3 .subtitle2{
     background-color: white;
     box-shadow: 0px 0.3px 4px 0px rgba(0,0,0,0.25);
-    width: 940px;
-    height: 140px;
+    max-width: 940px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
@@ -213,6 +216,7 @@ a{
     background-color: #284B70;
     display: flex;
     align-items: center;
+    padding-top: 30px;
 }
 
 .section3 .sec3-div div{
@@ -242,16 +246,20 @@ a{
     background-image: url(img/Ondas-resersas.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 276px;
-    width: 100%;
-    padding-top: 60px;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    padding-top: 30px;
+    padding-bottom: 120px;
 }
 
 .section4 .subtitle2{
     background-color: white;
     box-shadow: 0px 0.3px 4px 0px rgba(0,0,0,0.25);
-    width: 940px;
-    height: 140px;
+    max-width: 940px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
@@ -297,8 +305,7 @@ a{
 .section5 .subtitle2{
     background-color: white;
     box-shadow: 0px 0.3px 4px 0px rgba(0,0,0,0.25);
-    width: 940px;
-    height: 140px;
+    max-width: 940px;
     margin: 0 auto;
     text-align: center;
     padding: 30px;
@@ -323,16 +330,20 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
     margin-top: 60px;
 }
 
 .section5 .depoimento {
     display: flex;
-    width: 440px;
-    height: 140px;
     margin-bottom: 30px;
+}
+
+.section5 .depoimento p {
+    display: block;
+    max-width: 270px;
+    height: 140px;
 }
 
 .section5 .depoimento div h3 {
@@ -450,6 +461,56 @@ footer p{
     .section2 .sec2-div img{
         margin-bottom: 20px;
     }
+
+    .section3 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section3 .sec3-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section3 .sec3-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section3 .sec3-div div{
+        margin: 20px;
+    }
+
+    .section4 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section4 .sec4-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section4 .sec4-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section4 .sec4-div div{
+        margin: 20px;
+        margin-bottom: 60px;
+    }
+
+    .section4 .ondas-bg{
+        padding-bottom: 40px;
+    }
+
+    .section5 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .depoimento {
+        justify-content: center;
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -479,6 +540,56 @@ footer p{
     .section2 .sec2-div img{
         margin-bottom: 20px;
     }
+
+    .section3 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section3 .sec3-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section3 .sec3-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section3 .sec3-div div{
+        margin: 20px;
+    }
+
+    .section4 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section4 .sec4-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section4 .sec4-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section4 .sec4-div div{
+        margin: 20px;
+        margin-bottom: 60px;
+    }
+
+    .section4 .ondas-bg{
+        padding-bottom: 40px;
+    }
+
+    .section5 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .depoimento {
+        justify-content: center;
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width: 515px) {
@@ -503,5 +614,55 @@ footer p{
     .section2 .sec2-div img{
         margin: 0 20px 20px 20px;
         width: 100%;
+    }
+
+    .section3 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section3 .sec3-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section3 .sec3-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section3 .sec3-div div{
+        margin: 20px;
+    }
+
+    .section4 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .section4 .sec4-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section4 .sec4-div img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .section4 .sec4-div div{
+        margin: 20px;
+        margin-bottom: 60px;
+    }
+
+    .section4 .ondas-bg{
+        padding-bottom: 40px;
+    }
+
+    .section5 .subtitle2{
+        margin: 0 20px;
+    }
+
+    .depoimento {
+        justify-content: center;
+        margin: 20px;
     }
 }
