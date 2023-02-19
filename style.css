@@ -365,9 +365,13 @@ a{
     background-image: url(img/Ondas.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 276px;
-    width: 100%;
-    padding-top: 60px;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    height: 274px;
 }
 
 .section6 .sec6-div {
@@ -441,7 +445,6 @@ footer p{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     header{
         padding: 0 20px;
-        background-color: red;
     }
 
     .section1 div {
@@ -511,12 +514,15 @@ footer p{
         justify-content: center;
         margin: 20px;
     }
+
+    .local-contato{
+        flex-wrap: wrap-reverse;
+    }
 }
 
 @media screen and (max-width: 767px) {
     header{
         padding: 0 20px;
-        background-color: #29A71A;
     }
 
     .section1{
@@ -590,12 +596,27 @@ footer p{
         justify-content: center;
         margin: 20px;
     }
+
+    .sec6-div h3, .sec6-div p{
+        margin: 0 20px;
+    }
+
+    .local-contato{
+        flex-wrap: wrap-reverse;
+    }
+
+    .local-contato iframe{
+        margin-top: 30px;
+    }
+
+    footer p{
+        margin: 0 20px;
+    }
 }
 
 @media screen and (max-width: 515px) {
     header{
         padding: 0 20px;
-        background-color: yellow;
     }
 
     .section1 div {
@@ -664,5 +685,22 @@ footer p{
     .depoimento {
         justify-content: center;
         margin: 20px;
+    }
+
+    .sec6-div h3, .sec6-div p{
+        margin: 0 20px;
+    }
+
+    .local-contato{
+        flex-wrap: wrap-reverse;
+    }
+
+    .local-contato iframe{
+        margin-top: 30px;
+    }
+    
+    footer p{
+        margin: 0 20px;
+        text-align: center;
     }
 }
