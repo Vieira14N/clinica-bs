@@ -1,0 +1,92 @@
+/* Section 2 */ 
+
+.sec2-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Antes e depois */ 
+
+.antes-depois .ondas-bg {
+    background-image: url(img/Ondas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    padding-top: 210px;
+}
+
+.antes-depois .subtitle2 {
+    background-color: white;
+    box-shadow: 0px 0.3px 4px 0px rgba(0,0,0,0.25);
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.antes-depois .subtitle2 h2{
+    color: #353740;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.antes-depois .subtitle2 p{
+    color: #353740;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.antes-depois .bg {
+    background-color: #284B70;
+}
+
+.antes-depois .bg div {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.antes-depois .bg img {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+
+.antes-depois .bg div img {
+    padding: 20px;
+}
+
+/* Section 6 */
+
+.section6 .sec6-div h3 {
+    padding-top: 30px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .antes-depois .subtitle2 {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .antes-depois .subtitle2 {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .antes-depois .subtitle2 {
+        margin: 0 20px;
+    }
+}
