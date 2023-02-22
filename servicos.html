@@ -7,6 +7,7 @@
     <title>Clínica Beatriz Senra - Serviços</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat:wght@500;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
@@ -16,11 +17,21 @@
     
     <header class="header">
         <a href="index.html"><img src="img/logo.png" alt="clinica beatriz senra"></a>
+        <span class="material-symbols-outlined"onclick="abrirFecharMenu()">
+            menu
+        </span>
         <nav>
             <a href="index.html">Home</a>
-            <a href="servicos.html">Serviços</a>
+            <a href="servicos.html" class="active">Serviços</a>
         </nav>
     </header>
+
+    <div class="menu-burger">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="servicos.html" class="active">Serviços</a></li>
+        </ul>
+    </div>
 
     <section class="section1">
         <div>
@@ -109,6 +120,8 @@
     <a href="https://api.whatsapp.com/send?phone=5561999915055&text=Olá! Gostaria de saber mais sobre os serviços." target="_blank" style="position:fixed;bottom:20px;right:30px;">
         <img src="img/whatsapp.png" alt="" width="70px">
     </a>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
