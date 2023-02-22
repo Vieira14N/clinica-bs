@@ -148,8 +148,23 @@ header nav .active{
     display: flex;
 }
 
-.section2 .sec2-div div {
-    color: #29A71A;
+.slide-container {
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+
 }
 
 .section2 .sec2-div p {
@@ -706,6 +721,10 @@ footer p{
     .section2 .sec2-div img{
         margin: 0 20px 20px 20px;
         width: 100%;
+    }
+
+    .section2 .sec2-div p {
+        
     }
 
     .section3 .subtitle2{
