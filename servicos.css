@@ -89,4 +89,8 @@
     .antes-depois .subtitle2 {
         margin: 0 20px;
     }
+
+    .antes-depois .bg div {
+        flex-wrap: wrap;
+    }
 }
