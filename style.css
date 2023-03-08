@@ -198,6 +198,10 @@ header nav .active{
     cursor:pointer;
 }
 
+section button a{
+    color: white;
+}
+
 /* Section 3 */
 
 .section3 .ondas-bg{
@@ -453,15 +457,24 @@ header nav .active{
 footer {
     background-color: #006AC1;
     color: white;
-    height: 60px;
+    height: fit-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 footer p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    margin-right: 5px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 /* Media Queries */
